@@ -37,20 +37,30 @@ Figure 02  Encoder 8 * 3
 **Procedure**
 
 /* write all the steps invloved */
+1.Open Quartus II and create a new project wizard in it.
+
+2.Open verilog HDL file and write the code in it and run the program.
+
+3.Now, download RTL view of the experiment.
+
+4.Open new University program VWF and download the waveform screenshot
 
 **PROGRAM**
 
 /* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
+module EXP_5(din,a,b,c); input [0:7] din; output a,b,c; assign a=(din[4]| din[5]| din[6]| din[7]); assign b=(din[2]| din[3]| din[6]| din[7]); assign c=(din[1]| din[3]| din[5]| din[7]); endmodule
 
 Developed by: RegisterNumber:
-*/
+*/24900824
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
+![384916996-a52d4fbe-3093-4908-abb8-9f5a3d066386](https://github.com/user-attachments/assets/fb171e3b-4be3-45b1-ba37-81c974051e4f)
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
+![384917032-08a545bf-771e-42c0-a504-b39bdf31ce1c](https://github.com/user-attachments/assets/2de2cad0-fdcf-4224-bf9d-b380cf19c364)
 
 **RESULTS**
-
+ Thus the 8:3 Encoder circuit is designed and the truth tables is verified using Quartus software.
 
 
 
